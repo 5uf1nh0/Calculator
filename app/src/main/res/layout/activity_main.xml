@@ -12,20 +12,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:id="@+id/TV"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="70sp"
-        android:textAlignment="viewEnd" />
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorPrimaryDark" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/TV"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
@@ -33,7 +34,7 @@
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView"
+            android:layout_below="@+id/TV"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
 
@@ -43,7 +44,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button14"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="MR"
@@ -51,7 +55,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button13"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="M+"
@@ -59,7 +66,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button12"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="M-"
@@ -67,7 +77,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button11"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="MS"
@@ -75,7 +88,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button10"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,33 +103,45 @@
                 android:text="7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button18"
+                android:id="@+id/Boton7"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button17"
+                android:id="@+id/Boton8"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button16"
+                android:id="@+id/Boton9"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="/"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button15"
+                android:id="@+id/Bdividir"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
 
@@ -126,33 +154,45 @@
                 android:text="4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button22"
+                android:id="@+id/Boton4"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button21"
+                android:id="@+id/Boton5"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button20"
+                android:id="@+id/Boton6"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="*"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button19"
+                android:id="@+id/Bmulti"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
 
@@ -165,33 +205,45 @@
                 android:text="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button26"
+                android:id="@+id/Boton1"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button25"
+                android:id="@+id/Boton2"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button24"
+                android:id="@+id/Boton3"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="-"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button23"
+                android:id="@+id/Brestar"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
 
@@ -204,33 +256,45 @@
                 android:text="C"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button30"
+                android:id="@+id/Bborrar"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button29"
+                android:id="@+id/Boton0"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="."
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button28"
+                android:id="@+id/Bpunto"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:text="+"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button27"
+                android:id="@+id/Bsumar"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
         </LinearLayout>
 
         <LinearLayout
@@ -242,9 +306,12 @@
                 android:text="="
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button31"
+                android:id="@+id/Bresultado"
                 android:layout_weight="1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="onClick"
+                android:background="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark" />
         </LinearLayout>
     </LinearLayout>
 
