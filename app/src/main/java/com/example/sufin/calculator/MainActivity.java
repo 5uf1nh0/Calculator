@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         TextView pantalla = (TextView)findViewById(R.id.TV);
         int seleccionado = v.getId();
-
+        Double ms=0.0;
         String a = pantalla.getText().toString();
 
         try {
@@ -159,6 +159,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case R.id.Bborrar:
                     pantalla.setText("");
                     punto=false;
+                    break;
+                case R.id.BotonMs:
+                    ms=Double.parseDouble(pantalla.getText().toString());
+                    pantalla.setText("");
+                    break;
+                case R.id.BotonMr:
+                    pantalla.setText(ms.toString());
                     break;
             }
         }catch(Exception e){pantalla.setText("Error");};
