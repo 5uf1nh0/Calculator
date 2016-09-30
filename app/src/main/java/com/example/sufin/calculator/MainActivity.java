@@ -167,6 +167,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case R.id.BotonMr:
                     pantalla.setText(ms.toString());
                     break;
+                case R.id.BotonMmas:
+                    ms+=Double.parseDouble(pantalla.getText().toString());
+                    pantalla.setText(ms.toString());
+                    break;
+                case R.id.BotonMmenos:
+                    ms-=Double.parseDouble(pantalla.getText().toString());
+                    pantalla.setText(ms.toString());
+                    break;
+                case R.id.BotonMc:
+                    ms=0.0;
+                    break;
             }
         }catch(Exception e){pantalla.setText("Error");};
 

@@ -46,7 +46,8 @@
                 android:textSize="20sp"
                 android:onClick="onClick"
                 android:background="@android:color/background_light"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/BotonMc" />
 
             <Button
                 android:text="MR"
@@ -67,7 +68,8 @@
                 android:textSize="20sp"
                 android:onClick="onClick"
                 android:background="@android:color/background_light"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/BotonMmas" />
 
             <Button
                 android:text="M-"
@@ -77,7 +79,8 @@
                 android:textSize="20sp"
                 android:onClick="onClick"
                 android:background="@android:color/background_light"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/BotonMmenos"/>
 
             <Button
                 android:text="MS"
