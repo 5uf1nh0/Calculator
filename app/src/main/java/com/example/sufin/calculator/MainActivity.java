@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         TextView pantalla = (TextView)findViewById(R.id.TV);
         int seleccionado = v.getId();
-        Double ms=0.0;
+        Double ms=0.0,trigo=0.0;
         String a = pantalla.getText().toString();
 
         try {
@@ -177,6 +177,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
                 case R.id.BotonMc:
                     ms=0.0;
+                    break;
+                case R.id.BotonSin:
+                    trigo=Math.sin(Double.parseDouble(pantalla.getText().toString()));
+                    pantalla.setText(trigo.toString());
+                    break;
+                case R.id.BotonCos:
+                    trigo=Math.cos(Double.parseDouble(pantalla.getText().toString()));
+                    pantalla.setText(trigo.toString());
+                    break;
+                case R.id.BotonTan:
+                    trigo=Math.tan(Double.parseDouble(pantalla.getText().toString()));
+                    pantalla.setText(trigo.toString());
                     break;
             }
         }catch(Exception e){pantalla.setText("Error");};
